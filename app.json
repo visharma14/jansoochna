@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "jansoochna",
+    "slug": "jansoochna",
+    "version": "3.2.2",
+    "orientation": "portrait",
+    "icon": "./assets/ic_launcher.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashscreen_image.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.risl.jansoochna"
+    },
+    "android": {
+      "package": "com.risl.jansoochna",
+      "versionCode": 501,
+      "permissions": ["READ_CONTACTS", "WRITE_SETTINGS","ACCESS_COARSE_LOCATION","ACCESS_FINE_LOCATION"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive_icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
